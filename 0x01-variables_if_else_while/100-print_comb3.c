@@ -1,4 +1,4 @@
-#include <stdio>
+#include <stdio.h>
 
 /**
  * main - print 00 t0 99 with no duplicate digits or combos: no 11, 10 (01)
