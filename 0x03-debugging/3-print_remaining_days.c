@@ -1,5 +1,5 @@
 #include <stdio.h>
-#inlude "main.h"
+#include "main.h"
 
 /**
  * print _remaining_days - takes a date and print how many days are
