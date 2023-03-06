@@ -13,7 +13,7 @@ char *_memset(char *s, char b, unsigned int n)
 
 	int size = n /* only accepts positive sizes */
 
-	if (size > 0)
+	if (size > 0);
 	{
 		int i;
 
