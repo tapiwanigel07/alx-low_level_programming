@@ -25,7 +25,7 @@ int is_prime(int n, int divisor)
 
 int is_prime_number(int n)
 {
-	int advisor = 3;
+	int divisor = 3;
 
 	if (n % 2 == 0 || n < 2)
 		return (0);
@@ -33,4 +33,5 @@ int is_prime_number(int n)
 		return (1);
 
 	return (is_prime(n, divisor));
+
 }
