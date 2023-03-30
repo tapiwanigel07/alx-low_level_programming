@@ -14,3 +14,4 @@ free(head->str);
 free(head);
 head = tmp;
 }
+}
