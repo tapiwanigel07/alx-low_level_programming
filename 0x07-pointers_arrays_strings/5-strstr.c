@@ -5,13 +5,22 @@
  * @needle: input
  * Return: Always 0 (Success)
  */
-
-chr *_strstr(char *haystack, char *needle)
+char *_strstr(char *haystack, char *needle)
 {
 	for (; *haystack != '\0'; haystack++)
 	{
-		char *1 = haystack;
+		char *l = haystack;
 		char *p = needle;
 
-		while (*1 == *p && *p 
-				1
+		while (*l == *p && *p != '\0')
+		{
+			l++;
+			p++;
+		}
+
+		if (*p == '\0')
+			return (haystack);
+	}
+
+	return (0);
+}
